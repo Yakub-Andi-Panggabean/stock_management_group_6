@@ -9,7 +9,7 @@
                  ?>
                
                 <li>
-                  <a href="#demo4" class="list-group-item " data-toggle="collapse"><i class="glyphicon glyphicon-th-large"></i>Data Master  <span class="glyphicon glyphicon-chevron-right"></span></a>
+                  <a href="#demo4" class="list-group-item " data-toggle="collapse"><i class="glyphicon glyphicon-th-large"></i>Stock  <span class="glyphicon glyphicon-chevron-right"></span></a>
                     <li class="collapse" id="demo4">
                       <a href="barang" class="list-group-item"> Data Barang</a>
                       <a href="jenis_barang" class="list-group-item"> Jenis Barang</a>
@@ -19,7 +19,7 @@
                     </li>
                 </li>
                 <li>
-                  <a href="#demo5" class="list-group-item " data-toggle="collapse"><i class="glyphicon glyphicon-folder-open"></i>Data Transaksi  <span class="glyphicon glyphicon-chevron-right"></span></a>
+                  <a href="#demo5" class="list-group-item " data-toggle="collapse"><i class="glyphicon glyphicon-folder-open"></i>Transaction  <span class="glyphicon glyphicon-chevron-right"></span></a>
                     <li class="collapse" id="demo5">
                       <a href="barang_masuk" class="list-group-item">Transaksi Barang Masuk</a>
                       <a href="barang_keluar" class="list-group-item">Transaksi Barang Keluar</a>
@@ -27,7 +27,7 @@
                       
                     </li>
                 </li>
-                <li class="list-group-item"><a href="users"><i class="glyphicon glyphicon-user"></i>Manajemen User </a></li>
+                <li class="list-group-item"><a href="users"><i class="glyphicon glyphicon-user"></i>User Management </a></li>
                 <li class="list-group-item"><a href="<?php echo base_url()?>app/logout"><i class="glyphicon glyphicon-share"></i>Logout </a></li>
 
                 <?php 

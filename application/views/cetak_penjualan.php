@@ -104,31 +104,5 @@
 	</div>
 </div>
 
-
-<!-- <script src='assets/jspdf.debug.js'></script>
-	<script src='assets/html2pdf.js'></script>
-	<script>
-		var pdf = new jsPDF('l', 'pt', 'A4');
-		var canvas = pdf.canvas;
-		var width = 1200;
-		//canvas.width=8.5*72;
-		document.body.style.width=width + "px";
-
-		html2canvas(document.body, {
-		    canvas:canvas,
-		    onrendered: function(canvas) {
-		        var iframe = document.createElement('iframe');
-		        iframe.setAttribute('style', 'position:absolute;top:0;right:0;height:100%; width:100%');
-		        document.body.appendChild(iframe);
-		        iframe.src = pdf.output('datauristring');
-
-		       //var div = document.createElement('pre');
-		       //div.innerText=pdf.output();
-		       //document.body.appendChild(div);
-		    }
-		});
-     </script> -->
-
-
 </body>
 </html>

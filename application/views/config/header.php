@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>BENGKEL TOMODACHI MOTOR</title>
+    <title>STOCK MANAGEMENT</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <base href="<?php echo base_url();?>">
     <link rel="shortcut icon" href="favicon_16.ico"/>
