@@ -1,6 +1,6 @@
 <form action="<?php echo $action; ?>" method="post">
         <div class="form-group">
-            <label for="varchar">Kode Barang <?php echo form_error('kode_barang') ?></label>
+            <label for="varchar">Nama Barang <?php echo form_error('kode_barang') ?></label>
             <select name="kode_barang" class="form-control">
                 <option value="<?php echo $kode_barang ?>"><?php echo $kode_barang ?></option>
                 <?php 
@@ -14,7 +14,7 @@
         <div class="form-group">
             <label for="varchar">Kode Supplier <?php echo form_error('kode_supplier') ?></label>
             <select name="kode_supplier" class="form-control">
-                <option value="<?php echo $kode_supplier ?>"><?php echo $kode_supplier ?></option>
+                <option value="<?php echo $kode_supplier ?>"><?php echo $nama_supplier ?></option>
                 <?php 
                 $sql = $this->db->get('supplier');
                 foreach ($sql->result() as $row) {
